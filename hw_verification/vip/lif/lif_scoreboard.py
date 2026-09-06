@@ -1,7 +1,7 @@
 """lif_scoreboard.py — PyUVM Scoreboard with Protocol Assertions and Golden Model Checking."""
 
 from pyuvm import uvm_scoreboard, uvm_tlm_analysis_fifo
-from tests.uvm.lif_coverage import sample_egress_coverage, get_coverage_summary
+from hw_verification.vip.lif.lif_coverage import sample_egress_coverage, get_coverage_summary
 
 
 class LifTileScoreboard(uvm_scoreboard):

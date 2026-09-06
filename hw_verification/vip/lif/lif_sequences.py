@@ -2,8 +2,8 @@
 
 import random
 from pyuvm import uvm_sequence
-from tests.uvm.lif_seq_item import AxonSpikeSeqItem, TileConfigSeqItem
-from tests.uvm.lif_coverage import sample_stimulus_coverage
+from hw_verification.vip.lif.lif_seq_item import AxonSpikeSeqItem, TileConfigSeqItem
+from hw_verification.vip.lif.lif_coverage import sample_stimulus_coverage
 
 
 class TileConfigSequence(uvm_sequence):

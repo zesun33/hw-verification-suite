@@ -1,6 +1,5 @@
 """test_vip_sanity.py — Unit Sanity Verification for Centralized VIP Library."""
 
-import pytest
 from hw_verification.vip.common.poisson import PoissonSpikeGenerator
 from hw_verification.vip.common.sva import TemporalAssertionChecker
 from hw_verification.vip.aer.seq_item import AerPacketSeqItem

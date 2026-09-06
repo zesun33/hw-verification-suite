@@ -3,7 +3,7 @@
 import cocotb
 from cocotb.triggers import RisingEdge
 from pyuvm import uvm_monitor, uvm_analysis_port
-from tests.uvm.lif_seq_item import NeuronSpikeSeqItem
+from hw_verification.vip.lif.lif_seq_item import NeuronSpikeSeqItem
 
 
 class LifTileMonitor(uvm_monitor):
