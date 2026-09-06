@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw-verification-suite"
+version = "0.1.0"
+description = "Centralized IEEE 1800.2 PyUVM & Cocotb Verification IP (VIP) Suite for Neuromorphic & Hardware Accelerators"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Md Zesun Ahmed Mia", email = "zesun33@users.noreply.github.com" }
+]
+dependencies = [
+    "cocotb>=2.0.0",
+    "pyuvm>=5.0.0",
+    "cocotb-coverage>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0"
+]
